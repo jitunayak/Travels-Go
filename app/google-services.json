@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "855708620414",
+    "firebase_url": "https://esspelassettracking-14708.firebaseio.com",
+    "project_id": "esspelassettracking-14708",
+    "storage_bucket": "esspelassettracking-14708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855708620414:android:86da1eb9ae304989",
+        "android_client_info": {
+          "package_name": "com.example.user.esspel_assettracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855708620414-earavjar93jn0vbe9v7e6o69787mnamn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.esspel_assettracking",
+            "certificate_hash": "2f4b229968372dace7366049dfcbea64bfcf5e47"
+          }
+        },
+        {
+          "client_id": "855708620414-rtlh44tl85htft20sgu3lnbn4houplq6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.esspel_assettracking",
+            "certificate_hash": "adf2c285a84f3f52b8799f60312609c3bf9f02d1"
+          }
+        },
+        {
+          "client_id": "855708620414-hcb4dhgjf40ek1i2q4jhofn0ni942v7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi4fQFxJhf3KApo6-EAxE_OxuPX4gK7_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855708620414-hcb4dhgjf40ek1i2q4jhofn0ni942v7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:855708620414:android:1faf7154c95bb60c",
+        "android_client_info": {
+          "package_name": "com.esspl.jitu.mapclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "855708620414-kge2cv23kvvh2sls43epp03hfka4uret.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.esspl.jitu.mapclient",
+            "certificate_hash": "2f4b229968372dace7366049dfcbea64bfcf5e47"
+          }
+        },
+        {
+          "client_id": "855708620414-hcb4dhgjf40ek1i2q4jhofn0ni942v7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDi4fQFxJhf3KApo6-EAxE_OxuPX4gK7_U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "855708620414-hcb4dhgjf40ek1i2q4jhofn0ni942v7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

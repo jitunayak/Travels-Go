@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.esspl.jitu.mapclient.com.bus.BUS_Activity">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="15dp"
+        >
+
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:id="@+id/source"
+            android:hint="SOURCE"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@drawable/square_edittext_background"
+            android:layout_below="@id/destination"
+            />
+
+        <EditText
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:id="@+id/destination"
+            android:hint="DESTINATION"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:background="@drawable/square_edittext_background"
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/search_bus"
+            android:layout_below="@id/source"
+            android:text="show buses"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_background"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vehicle ID of available buses :"
+            android:layout_below="@id/search_bus"
+            android:textColor="@color/black"/>
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/BusList"
+    android:layout_below="@id/search_bus"
+    android:layout_marginTop="20dp"
+    android:textAlignment="center"
+    >
+
+</ListView>
+       
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

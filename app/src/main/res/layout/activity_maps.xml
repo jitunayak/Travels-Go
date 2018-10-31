@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="20dp"
+        tools:context="com.esspl.jitu.mapclient.MapsActivity" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="5dp"
+    android:padding="5dp"
+    android:weightSum="3"
+    android:id="@+id/linearLayout">
+    <EditText
+        android:id="@+id/searchText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/map"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:padding="10dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="5dp"
+        android:inputType="textPersonName"
+        android:hint="Destination" />
+
+    <Button
+        android:id="@+id/search_button"
+        android:layout_width="140dp"
+        android:layout_weight="1"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:onClick="Search_button_clicked"
+        android:text="search" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/booking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:onClick="cab_booking"
+        android:textStyle="bold"
+        android:text="Book a ride" />
+
+    <Button
+        android:id="@+id/taxi_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/map"
+        android:onClick="select_cab"
+        android:background="@drawable/cab" />
+
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_below="@id/taxi_button"
+    android:layout_marginTop="20dp"
+    android:layout_margin="10dp"
+
+    android:id="@+id/linearLayout3">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/driver_name"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:layout_marginLeft="15dp"
+        android:text="Driver NAme"/>
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/cab_number"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="OR 06 4563"/>
+</LinearLayout>
+</RelativeLayout>
